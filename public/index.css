@@ -1,0 +1,170 @@
+.app {
+  padding-bottom: 30px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.header {
+  padding: 20px 0;
+}
+
+.listing-header {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.listing-header > .listing-total {
+  display: flex;
+  margin-bottom: 0;
+}
+
+.listing-header > .listing-total > span {
+  margin: 0 3px;
+  font-weight: normal;
+}
+
+.listing-header > .listing-sorting {
+  display: flex;
+  margin-left: auto;
+}
+
+.listing-header > .listing-sorting > span {
+  margin-right: 5px;
+}
+
+.result-list > .result-item {
+  display: flex;
+  padding: 5px 0;
+}
+
+.result-item > .preview {
+  position: relative;
+  flex-basis: 11.125rem;
+  padding: 5px 0;
+}
+
+.result-item > .preview > .promotion-tag {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  background: white;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  color: red;
+}
+
+.result-item > .content {
+  width: calc(100% - 11.125rem);
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #efefef;
+}
+
+.result-item > .content > .details {
+  flex-basis: 100%;
+}
+
+.result-item > .content > .details > .title {
+  display: flex;
+}
+
+.result-item > .content > .details > .title > h2 {
+  font-size: 18px;
+  padding-top: 10px;
+  margin-bottom: 0;
+}
+
+.result-item > .content > .details > .title > .rating {
+  padding-top: 15px;
+  padding-left: 10px;
+  height: 30px;
+}
+
+.result-item > .content > .details > .address {
+  font-size: 11px;
+  color: gray;
+}
+
+.result-item > .content > .offer {
+  display: flex;
+}
+
+.result-item > .content > .offer > .offer-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.result-item > .content > .offer > .offer-info > .name > a {
+  font-size: 11px;
+  color: red;
+  text-decoration: underline;
+}
+
+.result-item > .content > .offer > .offer-info > .cancellation {
+  margin-top: auto;
+  font-size: 11px;
+  color: green;
+}
+
+.result-item > .content > .offer > .price {
+  margin-left: auto;
+}
+
+.result-item > .content > .offer > .price > .period {
+  font-size: 11px;
+  color: gray;
+}
+
+.result-item > .content > .offer > .price > .display-price {
+  display: flex;
+  align-items: flex-start;
+  margin: 5px 0 10px;
+}
+
+.result-item > .content > .offer > .price > .display-price > .currency {
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.result-item > .content > .offer > .price > .display-price > .amount {
+  font-size: 30px;
+}
+
+.result-item > .content > .offer > .price > .savings {
+  font-size: 16px;
+  color: red;
+}
+
+.self-half::before {
+  content: url('https://img.icons8.com/ios-filled/15/000000/180-degrees--v1.png');
+  display: inline-block;
+  height: 15px;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.self-empty::before {
+  content: url('https://img.icons8.com/ios-filled/15/000000/circled.png');
+}
+
+.self-full::before {
+  content: url('https://img.icons8.com/ios-filled/15/000000/filled-circle.png');
+}
+
+.star-half::before {
+  content: url('https://img.icons8.com/ios-filled/15/000000/star-half-empty.png');
+}
+
+.star-empty::before {
+  content: url('https://img.icons8.com/ios/15/000000/star--v1.png');
+}
+
+.star-full::before {
+  content: url('https://img.icons8.com/ios-filled/15/000000/star--v1.png');
+}
