@@ -2,6 +2,16 @@
 
 This project implements the Qantas Hotels Code Challenge.
 
+## Author Notes
+
+I've tried to prioritise the problem solution and test coverage instead of some other aspects, such as CSS and the layout matching. I believe a project like that takes advantage of a design system so I didn't spend much time styling the application. Also, I relied on some external images for the rating icons because I didn't have the original resources available.
+
+Also, I planned some components to be reusable in other scopes the application, such as the `Rating` and `Sorting`. The `Result` components and its sub-components can also be reused in different other contexts but they may require some re-thinking.
+
+Lastly, this application relies on `json-server` package to simulates an API server. I decided to use that so I can simulate a HTTP request and fetch the data as it will happen in a real world.
+
+I hope this implementation makes sense. Look forward to hearing any feedback from the team.
+
 ## Available Scripts
 
 In the project directory, you can run:
